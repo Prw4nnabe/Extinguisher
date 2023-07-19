@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "extinguisher-app": {
+      "hosting": {
+        "kanbanBoard": [
+          "extinguisher-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "extinguisher-app"
+  }
+}

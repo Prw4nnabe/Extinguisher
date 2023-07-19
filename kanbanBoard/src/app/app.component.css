@@ -1,0 +1,70 @@
+mat-toolbar {
+    margin-bottom: 20px;
+}
+  
+mat-toolbar > span {
+    margin-left: 10px;
+}
+
+.task-list {
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    max-height: 300px;
+}
+  
+.task-list.cdk-drop-list-dragging {
+    border-color: blue;
+}
+  
+.contentWrapper {
+    max-width: 1400px;
+    margin: auto;
+}
+  
+.containerWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.container {
+    width: 400px;
+    margin: 0 25px 25px 0;
+}
+  
+.list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    border-radius: 4px;
+    background-color: white;
+}
+  
+app-new-task {
+    margin-bottom: 30px;
+}
+  
+.empty-label {
+    font-size: 2em;
+    padding-top: 10px;
+    text-align: center;
+    opacity: 0.2;
+}
+  
+.cdk-drag-animating {
+    transition: transform 250ms;
+}
+  
+.cdk-drag-placeholder {
+    opacity: 0;
+}
+  
+@media (max-width: 767px) {
+    .containerWrapper {
+        flex-direction: column;
+    }
+  
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+  
